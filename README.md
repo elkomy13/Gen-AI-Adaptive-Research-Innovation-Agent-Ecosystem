@@ -1,6 +1,10 @@
 # Gen-AI Adaptive Research & Innovation Agent Ecosystem
 
 The Production AI Research Ecosystem is an advanced, multi-agent system designed to autonomously conduct comprehensive research, generate data-driven insights, identify innovation opportunities, and optimize system performance. Leveraging real-world data sources and Google's Gemini AI, this ecosystem provides end-to-end research capabilities for technology and business intelligence.
+----
+#### **Demo Video**  
+[![Watch Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID)
+---
 
 ## Key Features
 
@@ -106,9 +110,6 @@ A **Streamlit-based web interface** is available for interactive testing:
 ```bash
 streamlit run web_interface.py
 ```  
-
-#### **Demo Video**  
-[![Watch Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID) 
 
 ### Custom Research Tasks
 
