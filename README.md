@@ -7,7 +7,7 @@ The Production AI Research Ecosystem is an advanced, multi-agent system designed
 
 ## Key Features
 
-### 🚀 Multi-Agent Architecture  
+### Multi-Agent Architecture  
 Four specialized AI agents work in sequence to deliver end-to-end research and innovation:  
 
 | **Agent**         | **Role & Purpose**                                                                 | **Key Functions** |
