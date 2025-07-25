@@ -1,22 +1,23 @@
-# Production AI Research Ecosystem
-
-## Overview
+# Gen-AI Adaptive Research & Innovation Agent Ecosystem
 
 The Production AI Research Ecosystem is an advanced, multi-agent system designed to autonomously conduct comprehensive research, generate data-driven insights, identify innovation opportunities, and optimize system performance. Leveraging real-world data sources and Google's Gemini AI, this ecosystem provides end-to-end research capabilities for technology and business intelligence.
 
 ## Key Features
 
-### Multi-Agent Architecture
-- **Research Agent**: Gathers data from academic, news, and technical sources
-- **Analysis Agent**: Performs deep statistical and trend analysis
-- **Innovation Agent**: Generates commercially viable breakthrough ideas
-- **Environment Agent**: Monitors and optimizes system performance
+### 🚀 Multi-Agent Architecture  
+Four specialized AI agents work in sequence to deliver end-to-end research and innovation:  
+
+| **Agent**         | **Role & Purpose**                                                                 | **Key Functions** |
+|-------------------|-----------------------------------------------------------------------------------|------------------|
+| **Research Agent** | Gathers raw data from multiple authoritative sources. | • Searches arXiv for academic papers <br> • Retrieves news from RSS feeds (TechCrunch, BBC, Wired) <br> • Finds relevant GitHub repositories <br> • Calculates a **confidence score** based on data quality |
+| **Analysis Agent** | Performs deep statistical and trend analysis on collected data. | • Identifies quantitative patterns and correlations <br> • Assesses market growth and adoption trends <br> • Evaluates competitive landscapes <br> • Provides a **data quality score** |
+| **Innovation Agent** | Generates breakthrough ideas and commercial opportunities. | • Proposes disruptive technologies <br> • Assesses feasibility and market potential <br> • Suggests novel business models <br> • Provides **breakthrough potential** and **ROI projections** |
+| **Environment Agent** | Monitors and optimizes system health and efficiency. | • Tracks processing times and errors <br> • Recommends performance improvements <br> • Calculates **system health score** and **optimization potential** |
 
 ### Real-Time Data Integration
-- Academic papers from arXiv
-- Current news from TechCrunch, BBC Technology, Wired, and AI News RSS feeds
-- Open-source projects from GitHub
-- Google Gemini 1.5 Flash for AI-powered analysis
+- **arXiv** → Latest academic research  
+- **TechCrunch, BBC, Wired, AI News** → Current industry trends  
+- **GitHub** → Cutting-edge open-source projects 
 
 ### Automated Research Workflow
 1. Task creation and initialization
@@ -88,9 +89,6 @@ The Production AI Research Ecosystem is an advanced, multi-agent system designed
    Create a `.env` file with your API keys:
    ```env
    GOOGLE_API_KEY="your_google_gemini_api_key"
-   SERPER_API_KEY="your_serper_api_key"
-   NEWS_API_KEY="your_news_api_key"
-   GITHUB_TOKEN="your_github_token"
    ```
 
 ## Usage
@@ -101,6 +99,16 @@ Execute the main script:
 ```bash
 python final_production.py
 ```
+
+### Streamlit Web Demo  
+A **Streamlit-based web interface** is available for interactive testing:  
+
+```bash
+streamlit run web_interface.py
+```  
+
+#### **Demo Video**  
+[![Watch Demo](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/YOUR_VIDEO_ID) 
 
 ### Custom Research Tasks
 
@@ -178,16 +186,3 @@ The system tracks:
 [Additional report sections...]
 ```
 
-## Support
-
-For technical support or feature requests, please contact:
-- Email: support@your-org.com
-- Issue Tracker: https://github.com/your-org/ai-research-ecosystem/issues
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
-*Production AI Research Ecosystem - Powering Data-Driven Innovation*
